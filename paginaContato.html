@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="css/paginaContato.css">
+</head>
+
+<body>
+    <!--cabeçalho-->
+    <header>
+
+        <a href="paginaInicial.html" class="nome-empresa">Montesina Marcenaria</a>
+        <nav class="menu">
+            <ul>
+                <li><a href="paginaInicial.html">Início</a></li>
+                <li><a href="paginaQuemSomos.html">Quem somos</a></li>
+                <li><a href="paginaProdutos.html">Produtos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="container-icons">
+            <div class="icone-usuario">
+                <img src="img/icon-user.svg" alt="IconeUsuario">
+            </div>
+            <div class="carrinho-div">
+                <div class="icone-n">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        viewBox="0 0 20 20" xml:space="preserve">
+
+                        <path fill="rgb(255, 255, 255)"
+                            d="M16,16c1.1,0,2,0.9,2,2s-0.9,2-2,2s-2-0.9-2-2S14.9,16,16,16 M6,16c1.1,0,2,0.9,2,2s-0.9,2-2,2s-2-0.9-2-2
+        S4.9,16,6,16 M7.1,11h7.5c0.8,0,1.4-0.4,1.8-1L20,3.5c0-0.2,0-0.3,0-0.5c0-0.6-0.4-1-1-1H4.2L3.3,0H0v2h2l3.6,7.6L4.2,12
+        C4.1,12.3,4,12.7,4,13c0,1.1,0.9,2,2,2h12v-2H6.4c-0.1,0-0.3-0.1-0.3-0.3v-0.1L7.1,11z M5.1,4h12.6L15,9H7.5L5.1,4z" />
+                    </svg>
+                    <p id="nCompra">0</p>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!--fim do cabeçalho-->
+
+    <div class="container-Contato">
+        <h1>Contato</h1>
+
+        <div class="conteudo-form">
+            <div class="conteudo-form-preenchimento">
+                <form action="" id="formu" novalidate>
+                    <input type="text" id="name" placeholder="informe seu nome completo" autocomplete="off">
+                    <input type="text" id="email" placeholder="informe seu email" autocomplete="off">
+                    <input type="text" id="sMatter" placeholder="informe o assunto" autocomplete="off">
+                    <textarea id="message" placeholder="Deixe sua mensagem" autocomplete="off"></textarea>
+                    <button type="submit" class="enviar">Enviar</button>
+
+                    <p id="answer"></p>
+                </form>
+            </div>
+
+            <!--inicio do conteudo-->
+
+            <div class="conteudo-enderecoC">
+                <strong>
+                    Dúvidas e informações, ligue:
+                </strong>
+                <p>
+                    3325-473526 ou 33247-424770
+                </p>
+                <strong>
+                    Contato com a Montesina Marcenaria:
+                </strong>
+                <p>
+                    montesinamarcenaria5@gmail.com
+                </p>
+                <strong>
+                    Pedidos personalizados:
+                </strong>
+                <p>
+                    montesinamarcenaria5@gmail.com
+                </p>
+                <strong>
+                    Av. Antônio Prado, 2-90
+                    Fernando Prestes - SP, <br> 15940-000
+                    -21.267787, -48.689296
+                </strong>
+            </div>
+        </div>
+    </div>
+
+
+    <!--fim do conteudo-->
+
+
+
+    <!--Inincio do Rodapé-->
+    <footer>
+        <div class="direitosP">
+            <p>Montesina Marcenaria. Todos os direitos reservados.</p>
+        </div>
+
+        <div class="container-footer2">
+            <div class="box-redessociais">
+                <h3>Redes Sociais</h3>
+                <div class="redessociais">
+                    <a href="https://www.facebook.com/montesinamarcenaria/"><img src="img/LogoTipo/LogoFacebook.svg"
+                            alt="logoOficialFacebook"></a>
+                    <a href="https://www.instagram.com/montesinamarcenaria55/?hl=pt-br"><img
+                            src="img/LogoTipo/LogoInstagram.svg" alt="logoOficialWhatsApp"></a>
+                </div>
+            </div>
+
+            <div class="container-endereco">
+                <h3>Localização</h3>
+                <p><span>Endereço</span> <br>
+                    Av. Antônio Prado, 2-90
+                    Fernando Prestes - SP, <br> 15940-000
+                    -21.267787, -48.689296
+                </p>
+                <p><span>Telefone</span> <br>
+                    3325-473526 ou 33247-424770
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!--Fim do Rodapé-->
+
+    <script src="js/formulario-contato.js"></script>
+    <script src="js/carregadorCompra.js"></script>
+</body>
+
+</html>
